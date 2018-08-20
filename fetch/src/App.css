@@ -1,0 +1,43 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.cover {
+  background-color: #30376b;
+  overflow: hidden;
+}
+.wrapper {
+  padding: 15% 30%;
+  display: flex;
+  flex-direction: row;
+  width: 800px;
+  height: 550px;
+  border: 2px solid #1CE;
+}
+
+.image {
+  width: 100%;
+}
+
+.button {
+  outline: none;
+  border: 3px solid #6e79ce;
+  border-radius: 50px;
+  margin: 10px;
+  padding: 5px;
+  transition: all .3s ease-in-out;
+}
+
+.button:hover {
+  background-color: grey;
+  cursor: pointer;
+  border: 3px solid #90919e;
+  color: aliceblue;
+  transition: all .3s ease-in-out;
+}
+
+.button span {
+  writing-mode: vertical-rl;
+  font-size: 14px;
+}
